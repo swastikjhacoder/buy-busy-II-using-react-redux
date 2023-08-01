@@ -1,0 +1,39 @@
+.navbar {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    top: 0;
+    z-index: 1000;
+    height: 85px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 15px 20px;
+}
+
+.navbar .logo {
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 60px;
+}
+
+.navbar .nav-menu ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+.navbar .nav-menu ul li {
+    margin-left: 50px;
+}
+
+.navbar .nav-menu ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #7064e5;
+}
+
+.navbar .nav-menu ul li a span img {
+    width: 38px;
+}

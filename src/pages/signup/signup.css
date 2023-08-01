@@ -1,0 +1,46 @@
+.form-container {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.form-container .registerpage-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 20rem;
+}
+
+.form-container .registerpage-form h2 {
+    color: #224957;
+    font-size: 2.75em;
+    font-weight: 600;
+    text-align: left;
+}
+
+.form-container .registerpage-form input {
+    background: #f4f6f8;
+    border: 1px solid #7064e5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #7064e5;
+    font-size: 1.25em;
+    padding: 12px;
+    height: 50px;
+    width: 100%;
+}
+
+.form-container .registerpage-form button {
+    background: #7064e5;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+    color: #fff;
+    font-size: 1.25em!important;
+    padding: 0.4em!important;
+    width: 100%;
+    cursor: pointer;
+}
